@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family:'Dancing Script', cursive;
+  }  
+.welcome-poster{
+    background-color: #c72020;
+    padding-bottom: 300px;
+}
+.welcome-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    width: 40%
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+}
+.nav-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.nav-link:hover, .nav-link:focus {
+    color: black;
+}
